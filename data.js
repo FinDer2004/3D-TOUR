@@ -1,7 +1,74 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-1-",
+      "id": "0--",
+      "name": "Основной зал",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "yaw": -0.14539665347847297,
+        "pitch": 0.13804841379864818,
+        "fov": 1.5296923379379344
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.217411900822338,
+          "pitch": 0.3324360318845656,
+          "rotation": 0,
+          "target": "2--"
+        },
+        {
+          "yaw": -0.9580319760069713,
+          "pitch": 0.34731545382732776,
+          "rotation": 0,
+          "target": "1-1-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.2586810747854518,
+          "pitch": 0.3798933214357305,
+          "title": "Проектор",
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>Проектор ViewSonic – яркое изображение для вашего события в FDS LOFT</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">Идеален для презентаций, киносеансов и игр!</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Чёткая картинка</b> даже при освещении</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>HDMI и VGA</b> – подключение к ноутбукам и консолям</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>DLP-технология</b> – насыщенные цвета, высокая контрастность</p>"
+        },
+        {
+          "yaw": -0.3048504509591119,
+          "pitch": 0.1947523587882003,
+          "title": "Аудио система",
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>LG CL98+NL98 – мощный звук для ярких событий в FDS LOFT</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">3500 Вт чистого звука, глубокие басы, кристально чистые высокие частоты – идеально для вечеринок, презентаций и караоке!</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>Характеристики:</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>3500 Вт мощности</b> – ощути музыку всем телом</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Караоке</b> – 2 микрофона, настройка голоса</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Bluetooth, USB, CD, FM</b> – удобное подключение</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Эквалайзер и бас-буст</b> – звук под любое настроение</p>"
+        },
+        {
+          "yaw": -0.466516333420941,
+          "pitch": -0.07018998930011655,
+          "title": "<b style=\"font-family: &quot;Helvetica Neue&quot;; font-size: 13px; background-color: rgba(58, 68, 84, 0.8);\">PlayStation 5</b>",
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>PlayStation 5 в FDS LOFT – игровой мир без границ!</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">Прокачайте своё мероприятие с <b>PS5</b> – погружение в топовые игры, динамичные турниры и кино в 4K!</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">🎮 <b>Во что можно играть?</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">⚽ FIFA – устраивайте чемпионаты и матчи</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">🏎 Гонки – почувствуйте скорость и адреналин</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">👾 Файтинги и экшен – соревнуйтесь с друзьями</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">🎥 Фильмы в 4K – наслаждайтесь кинематографическим качеством</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">🔹 <b>Важно!</b> PS5 предоставляется по предварительному бронированию. Уточняйте доступность при аренде лофта.</p>"
+        }
+      ]
+    },
+    {
+      "id": "1-1-",
       "name": "1 Этаж",
       "levels": [
         {
@@ -37,7 +104,7 @@ var APP_DATA = {
           "yaw": 1.0070534733202212,
           "pitch": 0.4411589579080033,
           "rotation": 0.7853981633974483,
-          "target": "1--"
+          "target": "0--"
         },
         {
           "yaw": -2.3925426451207823,
@@ -59,67 +126,6 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
-    },
-    {
-      "id": "1--",
-      "name": "Основной зал",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "yaw": -0.7221934480045817,
-        "pitch": 0.006087499595865964,
-        "fov": 1.5296923379379344
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.217411900822338,
-          "pitch": 0.3324360318845656,
-          "rotation": 0,
-          "target": "2--"
-        },
-        {
-          "yaw": -0.9580319760069713,
-          "pitch": 0.34731545382732776,
-          "rotation": 0,
-          "target": "0-1-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.2508192972625984,
-          "pitch": 0.36530898470684825,
-          "title": "Проектор",
-          "text": "Можно посмотреть кино или показать презентацию!"
-        },
-        {
-          "yaw": -0.20778061583782304,
-          "pitch": 0.15138809106226958,
-          "title": "Аудио система",
-          "text": "LG"
-        }
-      ]
     },
     {
       "id": "2--",
@@ -158,7 +164,7 @@ var APP_DATA = {
           "yaw": -1.852827479034243,
           "pitch": 0.3445155579136312,
           "rotation": 5.497787143782138,
-          "target": "1--"
+          "target": "0--"
         },
         {
           "yaw": 1.893315761987318,
@@ -212,7 +218,7 @@ var APP_DATA = {
           "yaw": -1.8140386172528302,
           "pitch": 0.1491311553157555,
           "rotation": 7.853981633974483,
-          "target": "0-1-"
+          "target": "1-1-"
         },
         {
           "yaw": -2.8959313871716645,
@@ -268,7 +274,7 @@ var APP_DATA = {
           "yaw": -1.7040047047283888,
           "pitch": 0.10255433160317473,
           "title": "Мангальная зона",
-          "text": "Здесь можно приготовить шашлыки!"
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>Шашлыки в FDS LOFT – вкусное дополнение к вашему событию</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">Устроить пикник прямо в лофте? Легко! Мы предоставляем всё необходимое для комфортного приготовления шашлыков. Отличный вариант для дружеских встреч, корпоративов и дней рождения.</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Удобная зона для приготовления</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Мангал и все принадлежности</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Атмосфера уюта и комфорта</b></p>"
         }
       ]
     },
@@ -312,7 +318,14 @@ var APP_DATA = {
           "target": "6--"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.7030028900430114,
+          "pitch": 0.13210217683353775,
+          "title": "<b style=\"font-family: &quot;Helvetica Neue&quot;; font-size: 13px; background-color: rgba(58, 68, 84, 0.8);\">Чан с горячей водой</b>",
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>Чан с горячей водой в FDS LOFT – релакс и атмосфера</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">Погрузитесь в уют и расслабление с тёплой водой под открытым небом. Идеально для отдыха после насыщенного мероприятия, тёплых встреч с друзьями или романтического вечера.</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Горячая вода круглый год</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Ароматные травы и натуральные добавки</b> (по запросу)</p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Идеален для компании или уединённого отдыха</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">🔹 <b>Важно!</b> Чан с водой доступен <b>по предварительному бронированию</b>.</p>"
+        }
+      ]
     },
     {
       "id": "6--",
@@ -351,7 +364,7 @@ var APP_DATA = {
           "yaw": -1.042898805934703,
           "pitch": 0.11885407734128073,
           "rotation": 5.497787143782138,
-          "target": "0-1-"
+          "target": "1-1-"
         },
         {
           "yaw": -1.298182804785995,
@@ -447,7 +460,7 @@ var APP_DATA = {
           "yaw": 2.9721782574248223,
           "pitch": 0.08019628114763933,
           "rotation": 10.210176124166829,
-          "target": "0-1-"
+          "target": "1-1-"
         },
         {
           "yaw": -3.078245522148787,
@@ -459,13 +472,13 @@ var APP_DATA = {
           "yaw": -0.25869086007077513,
           "pitch": 0.14873158423159794,
           "rotation": 0,
-          "target": "9-2--"
+          "target": "9-"
         },
         {
           "yaw": -1.1100966260297547,
           "pitch": 0.22610596201102418,
           "rotation": 5.497787143782138,
-          "target": "13--2-"
+          "target": "13-"
         },
         {
           "yaw": 1.9900561397289307,
@@ -489,8 +502,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "9-2--",
-      "name": "2 Этаж звезды",
+      "id": "9-",
+      "name": "Звезды",
       "levels": [
         {
           "tileSize": 256,
@@ -531,14 +544,14 @@ var APP_DATA = {
           "yaw": 1.7533198818636366,
           "pitch": 0.42251918758777407,
           "rotation": 0,
-          "target": "10---2-"
+          "target": "10--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10---2-",
-      "name": "Мастер спальня 2 этаж",
+      "id": "10--",
+      "name": "Мастер спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -585,7 +598,7 @@ var APP_DATA = {
           "yaw": -2.532060555341424,
           "pitch": 0.24510301792815703,
           "rotation": 0,
-          "target": "9-2--"
+          "target": "9-"
         }
       ],
       "infoHotspots": []
@@ -627,7 +640,7 @@ var APP_DATA = {
           "yaw": -2.7576817329718466,
           "pitch": 0.20730412360378025,
           "rotation": 0.7853981633974483,
-          "target": "10---2-"
+          "target": "10--"
         }
       ],
       "infoHotspots": []
@@ -660,23 +673,30 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.766156034526766,
+        "pitch": 0.7178766144642879,
+        "fov": 1.5296923379379344
       },
       "linkHotspots": [
         {
           "yaw": 2.33938589784929,
           "pitch": 0.27694911555185264,
           "rotation": 1.5707963267948966,
-          "target": "10---2-"
+          "target": "10--"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.0251427423887822,
+          "pitch": 0.8568591558958651,
+          "title": "Парогенератор",
+          "text": "<p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\"><b>Парогенератор для одежды в FDS LOFT – безупречный вид для вашего мероприятия</b><b></b></p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">Сделайте свою одежду идеально гладкой перед съёмкой, выступлением или важной встречей. Быстрое отпаривание без заломов и повреждений ткани.</p><p class=\"p2\" style=\"font: 400 13px &quot;Helvetica Neue&quot;; min-height: 15px;\"><br></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Быстро разглаживает складки</b><b></b></p><p class=\"p1\" style=\"font: 400 13px &quot;Helvetica Neue&quot;;\">✔ <b>Готов к работе за секунды</b></p>"
+        }
+      ]
     },
     {
-      "id": "13--2-",
-      "name": "Спальня 2 этаж",
+      "id": "13-",
+      "name": "Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -933,32 +953,32 @@ var APP_DATA = {
           "yaw": 2.0178472370873903,
           "pitch": 0.24071359658269742,
           "rotation": 0,
-          "target": "19-1--3-"
+          "target": "19-1-"
         },
         {
           "yaw": -1.6433698176658496,
           "pitch": 0.36781700746645285,
           "rotation": 0.7853981633974483,
-          "target": "20-2--3-"
+          "target": "20-2-"
         },
         {
           "yaw": -2.247185896013548,
           "pitch": 0.17818208056114315,
           "rotation": 6.283185307179586,
-          "target": "21-3--3-"
+          "target": "21-3-"
         },
         {
           "yaw": 3.022408919989945,
           "pitch": 0.21744464090869542,
           "rotation": 0,
-          "target": "23-5--3-"
+          "target": "23-5-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "19-1--3-",
-      "name": "1 Спальня 3 этаж",
+      "id": "19-1-",
+      "name": "1 Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -999,8 +1019,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "20-2--3-",
-      "name": "2 Спальня 3 этаж",
+      "id": "20-2-",
+      "name": "2 Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -1041,8 +1061,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "21-3--3-",
-      "name": "3 Спальня 3 этаж",
+      "id": "21-3-",
+      "name": "3 Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -1083,14 +1103,14 @@ var APP_DATA = {
           "yaw": -0.5748660304674473,
           "pitch": 0.13442380232118367,
           "rotation": 0,
-          "target": "22-4--3-"
+          "target": "22-4-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "22-4--3-",
-      "name": "4 Спальня 3 этаж",
+      "id": "22-4-",
+      "name": "4 Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -1125,14 +1145,14 @@ var APP_DATA = {
           "yaw": 2.695981888450275,
           "pitch": 0.09488136530671198,
           "rotation": 0,
-          "target": "21-3--3-"
+          "target": "21-3-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "23-5--3-",
-      "name": "5 Спальня 3 этаж",
+      "id": "23-5-",
+      "name": "5 Спальня",
       "levels": [
         {
           "tileSize": 256,
@@ -1170,103 +1190,6 @@ var APP_DATA = {
           "target": "18-3-"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "24-",
-      "name": "проба",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2976,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "25--2",
-      "name": "проба 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "26--3",
-      "name": "Проба 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -0.5938764725050873,
-        "pitch": 0.20893837564728202,
-        "fov": 1.5296923379379344
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
